@@ -9,7 +9,7 @@ namespace WebAPI.Models
         
         public  string Name { get; set; }
 
-        public DateOnly CreatedDate { get; set; }
+      public int VillaId { get; set; } = 0;
         
     }
 }
