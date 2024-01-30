@@ -9,5 +9,7 @@ namespace WebAPI.Models
         [Required]
         [MaxLength(30)]
         public string Name { get; set; }
+        public int Occupancy { get; set; }
+        public int sqft { get; set; }
     }
 }
