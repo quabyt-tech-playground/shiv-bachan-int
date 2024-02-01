@@ -28,7 +28,10 @@ namespace Collections_Practice
             Customers.Add(c2);
             Customers.Add(c3);
 
-            foreach (Customer customer in Customers)
+            List<Customer> sortedPeople = Customers.OrderBy(cust => cust.Balance).ToList();
+                               
+
+            foreach (Customer customer in sortedPeople)
             {
                 //Console.WriteLine(customer.Name + " " + customer.City + " " + customer.Custid + " " + customer.Balance);
                 Console.WriteLine($"Name:{customer.Name},City:{customer.City}, Id:{customer.Custid}, Balance: { customer.Balance }");   
