@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPS_Practice
 {
-    internal class Test5
+    public class Test5
     {
         public static void Main(string[] args)
         {
