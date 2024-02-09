@@ -1,0 +1,451 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{FAE9D7DF-036B-4ADC-AB00-303EC12369D0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ContosoPizzaProject</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\ContosoPizzaProject\FileContentIndex\a582596e-01b6-439a-9fd7-473144bc736d.vsidx" />
+    <None Include=".vs\ContosoPizzaProject\v17\.suo" />
+    <None Include="ContosoPizza.RE\bin\Debug\net8.0\ContosoPizza.RE.deps.json" />
+    <None Include="ContosoPizza.RE\bin\Debug\net8.0\ContosoPizza.RE.runtimeconfig.json" />
+    <None Include="ContosoPizza.RE\ContosoPizza.RE.csproj" />
+    <None Include="ContosoPizza.RE\obj\ContosoPizza.RE.csproj.nuget.dgspec.json" />
+    <None Include="ContosoPizza.RE\obj\ContosoPizza.RE.csproj.nuget.g.props" />
+    <None Include="ContosoPizza.RE\obj\ContosoPizza.RE.csproj.nuget.g.targets" />
+    <None Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.AssemblyInfoInputs.cache" />
+    <None Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.assets.cache" />
+    <None Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.csproj.AssemblyReference.cache" />
+    <None Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.csproj.CopyComplete" />
+    <None Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.csproj.CoreCompileInputs.cache" />
+    <None Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.genruntimeconfig.cache" />
+    <None Include="ContosoPizza.RE\obj\project.assets.json" />
+    <None Include="ContosoPizza.RE\obj\project.nuget.cache" />
+    <None Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ContosoPizzaContext.RE2.deps.json" />
+    <None Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ContosoPizzaContext.RE2.runtimeconfig.json" />
+    <None Include="ContosoPizzaContext.RE2\ContosoPizzaContext.RE2.csproj" />
+    <None Include="ContosoPizzaContext.RE2\obj\ContosoPizzaContext.RE2.csproj.nuget.dgspec.json" />
+    <None Include="ContosoPizzaContext.RE2\obj\ContosoPizzaContext.RE2.csproj.nuget.g.props" />
+    <None Include="ContosoPizzaContext.RE2\obj\ContosoPizzaContext.RE2.csproj.nuget.g.targets" />
+    <None Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.AssemblyInfoInputs.cache" />
+    <None Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.assets.cache" />
+    <None Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.csproj.AssemblyReference.cache" />
+    <None Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.csproj.CopyComplete" />
+    <None Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.csproj.CoreCompileInputs.cache" />
+    <None Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.genruntimeconfig.cache" />
+    <None Include="ContosoPizzaContext.RE2\obj\project.assets.json" />
+    <None Include="ContosoPizzaContext.RE2\obj\project.nuget.cache" />
+    <None Include="ContosoPizza\bin\Debug\net8.0\ContosoPizza.deps.json" />
+    <None Include="ContosoPizza\bin\Debug\net8.0\ContosoPizza.runtimeconfig.json" />
+    <None Include="ContosoPizza\ContosoPizza.csproj" />
+    <None Include="ContosoPizza\obj\ContosoPizza.csproj.nuget.dgspec.json" />
+    <None Include="ContosoPizza\obj\ContosoPizza.csproj.nuget.g.props" />
+    <None Include="ContosoPizza\obj\ContosoPizza.csproj.nuget.g.targets" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.AssemblyInfoInputs.cache" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.assets.cache" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.csproj.AssemblyReference.cache" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.csproj.BuildWithSkipAnalyzers" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.csproj.CopyComplete" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.csproj.CoreCompileInputs.cache" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.genruntimeconfig.cache" />
+    <None Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.sourcelink.json" />
+    <None Include="ContosoPizza\obj\project.assets.json" />
+    <None Include="ContosoPizza\obj\project.nuget.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ContosoPizza.RE.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ContosoPizza.RE.exe" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ContosoPizza.RE.pdb" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Humanizer.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.Options.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Mono.TextTemplating.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Npgsql.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\System.CodeDom.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\System.Composition.AttributedModel.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\System.Composition.Convention.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\System.Composition.Hosting.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\System.Composition.Runtime.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\System.Composition.TypedParts.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\System.IO.Pipelines.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza.RE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza.RE\obj\Debug\net8.0\apphost.exe" />
+    <Content Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.csproj.FileListAbsolute.txt" />
+    <Content Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.dll" />
+    <Content Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.pdb" />
+    <Content Include="ContosoPizza.RE\obj\Debug\net8.0\refint\ContosoPizza.RE.dll" />
+    <Content Include="ContosoPizza.RE\obj\Debug\net8.0\ref\ContosoPizza.RE.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ContosoPizzaContext.RE2.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ContosoPizzaContext.RE2.exe" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ContosoPizzaContext.RE2.pdb" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Humanizer.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.Options.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Mono.TextTemplating.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Npgsql.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\System.CodeDom.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\System.Composition.AttributedModel.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\System.Composition.Convention.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\System.Composition.Hosting.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\System.Composition.Runtime.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\System.Composition.TypedParts.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\System.IO.Pipelines.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\apphost.exe" />
+    <Content Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.csproj.FileListAbsolute.txt" />
+    <Content Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.dll" />
+    <Content Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.pdb" />
+    <Content Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\refint\ContosoPizzaContext.RE2.dll" />
+    <Content Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ref\ContosoPizzaContext.RE2.dll" />
+    <Content Include="ContosoPizza\.gitattributes" />
+    <Content Include="ContosoPizza\.gitignore" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Azure.Core.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Azure.Identity.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ContosoPizza.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ContosoPizza.exe" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ContosoPizza.pdb" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Humanizer.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.Options.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Identity.Client.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Mono.TextTemplating.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Newtonsoft.Json.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Npgsql.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Supabase.Core.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Supabase.Postgrest.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Supabase.Realtime.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.CodeDom.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Composition.AttributedModel.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Composition.Convention.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Composition.Hosting.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Composition.Runtime.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Composition.TypedParts.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Drawing.Common.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.IO.Pipelines.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Memory.Data.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Reactive.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Runtime.Caching.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Security.Permissions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\System.Windows.Extensions.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\Websocket.Client.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="ContosoPizza\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="ContosoPizza\ContosoPizza.sln" />
+    <Content Include="ContosoPizza\obj\Debug\net8.0\apphost.exe" />
+    <Content Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.csproj.FileListAbsolute.txt" />
+    <Content Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.dll" />
+    <Content Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.pdb" />
+    <Content Include="ContosoPizza\obj\Debug\net8.0\refint\ContosoPizza.dll" />
+    <Content Include="ContosoPizza\obj\Debug\net8.0\ref\ContosoPizza.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContosoPizza.RE\Models\ContosoPizzaContext.cs" />
+    <Compile Include="ContosoPizza.RE\Models\Customer.cs" />
+    <Compile Include="ContosoPizza.RE\Models\Order.cs" />
+    <Compile Include="ContosoPizza.RE\Models\OrderDetail.cs" />
+    <Compile Include="ContosoPizza.RE\Models\Product.cs" />
+    <Compile Include="ContosoPizza.RE\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.AssemblyInfo.cs" />
+    <Compile Include="ContosoPizza.RE\obj\Debug\net8.0\ContosoPizza.RE.GlobalUsings.g.cs" />
+    <Compile Include="ContosoPizza.RE\Program.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\Models\ContosoPizzaContext.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\Models\Customer.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\Models\Order.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\Models\OrderDetail.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\Models\Product.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.AssemblyInfo.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\obj\Debug\net8.0\ContosoPizzaContext.RE2.GlobalUsings.g.cs" />
+    <Compile Include="ContosoPizzaContext.RE2\Program.cs" />
+    <Compile Include="ContosoPizza\Data\ContosoPizzaContext.cs" />
+    <Compile Include="ContosoPizza\Migrations\20240206091124_initailMigration.cs" />
+    <Compile Include="ContosoPizza\Migrations\20240206091124_initailMigration.Designer.cs">
+      <DependentUpon>20240206091124_initailMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContosoPizza\Migrations\ContosoPizzaContextModelSnapshot.cs" />
+    <Compile Include="ContosoPizza\Models\Customer.cs" />
+    <Compile Include="ContosoPizza\Models\Order.cs" />
+    <Compile Include="ContosoPizza\Models\OrderDetail.cs" />
+    <Compile Include="ContosoPizza\Models\Product.cs" />
+    <Compile Include="ContosoPizza\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.AssemblyInfo.cs" />
+    <Compile Include="ContosoPizza\obj\Debug\net8.0\ContosoPizza.GlobalUsings.g.cs" />
+    <Compile Include="ContosoPizza\Program.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
