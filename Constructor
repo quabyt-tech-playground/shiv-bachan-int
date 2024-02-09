@@ -1,0 +1,40 @@
+public class ParentClass
+{
+    // Parent class constructor
+    public ParentClass()
+    {
+        Console.WriteLine("Constructor of ParentClass");
+    }
+
+    public void ParentMethod()
+    {
+        Console.WriteLine("Method in ParentClass");
+    }
+}
+
+public class ChildClass : ParentClass
+{
+    // Child class constructor
+    public ChildClass() : base()
+    {
+        Console.WriteLine("Constructor of ChildClass");
+    }
+
+    public void ChildMethod()
+    {
+        Console.WriteLine("Method in ChildClass");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Creating an object of the ChildClass
+        ChildClass childObj = new ChildClass();
+
+        // Accessing methods from both parent and child classes
+        childObj.ParentMethod();
+        childObj.ChildMethod();
+    }
+}
