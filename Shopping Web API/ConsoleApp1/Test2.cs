@@ -17,6 +17,7 @@ namespace ConsoleApp1
         public static void SimleMethod(ref int j) {
 
             j = 101;
+
         }
     }
 }
