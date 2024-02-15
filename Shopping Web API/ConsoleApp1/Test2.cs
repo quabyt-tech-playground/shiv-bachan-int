@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+   //Method parameter type: Reference Parameter
     public class Test2
     {
         static void Main() {
